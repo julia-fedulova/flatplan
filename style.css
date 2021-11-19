@@ -2,7 +2,7 @@
   font-family: "Formular";
   font-style: normal;
   font-weight: 400;
-  src: local("Formular"), url("/fonts/Formular.woff2") format("woff2"), url("/fonts/Formular.woff") format("woff");
+  src: local("Formular"), url("fonts/Formular.woff2") format("woff2"), url("fonts/Formular.woff") format("woff");
 }
 
 @font-face {
@@ -16,21 +16,21 @@
   font-family: "Formular Bold";
   font-style: normal;
   font-weight: 700;
-  src: local("Formular"), url("/fonts/Formular-Bold.woff2") format("woff2"), url("/fonts/Formular-Bold.woff") format("woff");
+  src: local("Formular-Bold"), url("fonts/Formular-Bold.woff2") format("woff2"), url("fonts/Formular-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 400;
-  src: local("Formular"), url("/fonts/GothamPro.woff2") format("woff2"), url("/fonts/GothamPro.woff") format("woff");
+  src: local("GothamPro"), url("fonts/GothamPro.woff2") format("woff2"), url("fonts/GothamPro.woff") format("woff");
 }
 
 @font-face {
   font-family: "Gotham Pro Medium";
   font-style: normal;
   font-weight: 500;
-  src: local("Formular"), url("/fonts/GothamPro-Medium.woff2") format("woff2"), url("/fonts/GothamPro-Medium.woff2") format("woff");
+  src: local("GothamPro-Medium"), url("fonts/GothamPro-Medium.woff2") format("woff2"), url("fonts/GothamPro-Medium.woff2") format("woff");
 }
 
 body {
@@ -145,7 +145,7 @@ body {
 }
 
 .cover {
-  background: url(/images/image.png) no-repeat center;
+  background: url(images/image.png) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 200px;
@@ -230,7 +230,7 @@ body {
   top: 5px;
   width: 13px;
   height: 13px;
-  background-image: url(/images/fire-emoji.png);
+  background-image: url(images/fire-emoji.png);
   background-size: 13px;
 }
 
